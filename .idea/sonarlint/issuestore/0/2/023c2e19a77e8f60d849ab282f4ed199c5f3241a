@@ -1,21 +1,0 @@
-
-`squid:UselessImportCheck"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8Ù¸¥îî,
-Isquid:S1181ˆ"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ8Ù¸¥îî,
-\squid:UselessImportCheck",Remove this unused import 'android.net.Uri'.(òêû‘ıÿÿÿÿ8Ù¸¥îî,
-Gsquid:S1148‰"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ù¸¥îî,
-Gsquid:S1148¤"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ù¸¥îî,
-[squid:UselessImportCheck"0Remove this unused import 'java.io.InputStream'.(¹»º8Ù¸¥îî,
-_squid:UselessImportCheck"4Remove this unused import 'java.io.FileInputStream'.(˜³ÉÓ8Ù¸¥îî,
-isquid:S1192@"FDefine a constant instead of duplicating this literal "UTF-8" 4 times.(ŠÄ¿äıÿÿÿÿ8Ù¸¥îî,
-esquid:S00112¶"FDefine and throw a dedicated exception instead of using a generic one.(‰Æáe8Ù¸¥îî,
-~squid:S00115#"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ñè‚æúÿÿÿÿ8Ù¸¥îî,
-Tsquid:UselessImportCheck")Remove this unused import 'java.io.File'.(†Ğ¥Å8Ù¸¥îî,
-Tsquid:UselessImportCheck")Remove this unused import 'java.net.URI'.(Ö¦¨°8Ù¸¥îî,
-|
-squid:S135¿"YReduce the total number of break and continue statements in this loop to use at most one.(É¨–úÿÿÿÿ8Ù¸¥îî,
-Tsquid:S2696n"6Make the enclosing method "static" or remove this set.(ƒÙüÎ8Ù¸¥îî,
-Esquid:S1168‹"&Return an empty array instead of null.(¥¹ï8Ù¸¥îî,
-Esquid:S1168¦"&Return an empty array instead of null.(¥¹ï8Ù¸¥îî,
-qsquid:UselessImportCheck"ARemove this unused import 'com.juefeng.android.framework.LKUtil'.(ìáŞõúÿÿÿÿ8Ù¸¥îî,
-Isquid:S1181£"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ8Ù¸¥îî,
-~squid:S00115$"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ö‡Â‹şÿÿÿÿ8Ù¸¥îî,

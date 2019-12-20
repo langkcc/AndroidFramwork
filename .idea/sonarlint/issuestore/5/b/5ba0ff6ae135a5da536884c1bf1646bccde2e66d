@@ -1,4 +1,0 @@
-
-wsquid:S1450"VRemove the "context" field and declare it as a local variable in the relevant methods.(ÄÖ¤–ıÿÿÿÿ8“ªŠóÚ,
-Lsquid:S1068"+Remove this unused "context" private field.(ÄÖ¤–ıÿÿÿÿ8“ªŠóÚ,
-[squid:S1118":Add a private constructor to hide the implicit public one.(ıôÓ¹ıÿÿÿÿ8“ªŠóÚ,

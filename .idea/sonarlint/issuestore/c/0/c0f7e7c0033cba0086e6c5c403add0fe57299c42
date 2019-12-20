@@ -1,35 +1,0 @@
-
-esquid:S1126"AReplace this if-then-else statement by a single return statement.(¤šîÎøÿÿÿÿ8¸®Öêî,
-zsquid:UselessImportCheck"ORemove this unused import 'com.juefeng.android.framework.common.util.SignUtil'.(ú›®ª8¸®Öêî,
-Ssquid:S2864û"4Iterate over the "entrySet" instead of the "keySet".(å±¬³8¸®Öêî,
-Nsquid:S2093©"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8¸®Öêî,
-isquid:HiddenFieldCheckJ";Rename "content" which hides the field declared at line 58.(–•ÙÅùÿÿÿÿ8¸®Öêî,
-fsquid:S00112ë"FDefine and throw a dedicated exception instead of using a generic one.(ù½Ø‰8¸®Öêî,
-Gsquid:S1148×"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¸®Öêî,
-Isquid:S00108¯")Either remove or fill this block of code.(”ı¾8¸®Öêî,
-ksquid:S00112ë"FDefine and throw a dedicated exception instead of using a generic one.(Ÿ¼›Ñúÿÿÿÿ8¸®Öêî,
-qsquid:S3776ë"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(ù½Ø‰8¸®Öêî,
-qsquid:S00116"SRename this field "BOUNDARY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ•Á)8¸®Öêî,
-ƒsquid:S1149™"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Àëá¼ÿÿÿÿÿ8¸®Öêî,
-`squid:S3066ƒ"<Lower the visibility of this setter or remove it altogether.(µœª§ûÿÿÿÿ8¸®Öêî,
-fsquid:S00112µ"FDefine and throw a dedicated exception instead of using a generic one.(ØÅâı8¸®Öêî,
-Dsquid:S1170"!Make this final field static too.(Ò°·ùıÿÿÿÿ8¸®Öêî,
-lsquid:S2095"MUse try-with-resources or close this "DataInputStream" in a "finally" clause.(ªÆ° 8¸®Öêî,
-Nsquid:S2093û"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8¸®Öêî,
-Msquid:S2786ö")Remove this redundant "static" qualifier.(ÊúÓùÿÿÿÿ8¸®Öêî,
->squid:S1170"!Make this final field static too.(ğ•Á)8¸®Öêî,
-ksquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(¸ÌŞîüÿÿÿÿ8¸®Öêî,
-qsquid:UselessImportCheck"ARemove this unused import 'com.juefeng.android.framework.LKUtil'.(ìáŞõúÿÿÿÿ8¸®Öêî,
-ƒsquid:UselessImportCheck"SRemove this unused import 'com.juefeng.android.framework.common.util.ResourceUtil'.(³ÿ“íÿÿÿÿÿ8¸®Öêî,
-Gsquid:S1148Î"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¸®Öêî,
-ƒsquid:S1149§"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÄÈŒíşÿÿÿÿ8¸®Öêî,
-ƒsquid:S1149ù"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÄÈŒíşÿÿÿÿ8¸®Öêî,
-lsquid:S1192š"MDefine a constant instead of duplicating this literal "Content-Type" 3 times.(ıúµ8¸®Öêî,
-vsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(¸ÌŞîüÿÿÿÿ8¸®Öêî,
-Isquid:S00108´")Either remove or fill this block of code.(”ı¾8¸®Öêî,
-fsquid:S00112í"FDefine and throw a dedicated exception instead of using a generic one.(É‚ú8¸®Öêî,
-fsquid:S00112º"FDefine and throw a dedicated exception instead of using a generic one.(ØÅâı8¸®Öêî,
-€squid:S00116"\Rename this field "HTTP_SUCCESS_CODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò°·ùıÿÿÿÿ8¸®Öêî,
-ƒsquid:S1149ÿ"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Àëá¼ÿÿÿÿÿ8¸®Öêî,
-Xsquid:S2864â"4Iterate over the "entrySet" instead of the "keySet".(½Ö²’ûÿÿÿÿ8¸®Öêî,
-ksquid:S1858­"G"body" is already a string, there's no need to call "toString()" on it.(İÓ®Äûÿÿÿÿ8¸®Öêî,

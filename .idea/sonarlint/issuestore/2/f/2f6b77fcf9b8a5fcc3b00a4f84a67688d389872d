@@ -1,5 +1,0 @@
-
-jsquid:UselessImportCheck"ARemove this unused import 'com.juefeng.android.framework.LKUtil'.(ìáŞõúÿÿÿÿ
-Xsquid:S1126"AReplace this if-then-else statement by a single return statement.(“†Ù¼
-jsquid:S1192/"NDefine a constant instead of duplicating this literal "Android/data/" 3 times.(ÕËåùúÿÿÿÿ
-Qsquid:S1118":Add a private constructor to hide the implicit public one.(¿Ü–Å
