@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base>
+	<!--encrypto config-->
+	<encrypto>
+		<!--encrypto flag-->
+		<encrypto_flag>true</encrypto_flag>
+		<!--encrypto text,server must same with this -->
+		<encrypto_text>test</encrypto_text>
+	</encrypto>
+</base>

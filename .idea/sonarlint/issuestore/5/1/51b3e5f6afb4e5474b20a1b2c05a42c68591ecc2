@@ -1,0 +1,8 @@
+
+Msquid:S1066D"/Merge this if statement with the enclosing one.(óú´Ä8¤ñóì,
+Tsquid:S1068"1Remove this unused "httpRequestor" private field.(øô†×ûÿÿÿÿ8¤ñóì,
+squid:S1450"\Remove the "httpRequestor" field and declare it as a local variable in the relevant methods.(øô†×ûÿÿÿÿ8¤ñóì,
+¤squid:S1186`"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(  Ìˆúÿÿÿÿ8¤ñóì,
+Ÿsquid:S1186j"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Œî¹Õ8¤ñóì,
+Ÿsquid:S1186q"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ŸÖµ¸8¤ñóì,
+Zsquid:UselessImportCheck"/Remove this unused import 'android.os.Handler'.(ûÛ’¡8¤ñóì,

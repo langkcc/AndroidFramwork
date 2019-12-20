@@ -1,0 +1,13 @@
+
+msquid:S1192"QDefine a constant instead of duplicating this literal "permisstion_deny" 4 times.(æÝ¸Ú8“ªŠóÚ,
+œsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±ÖÑ8“ªŠóÚ,
+Xsquid:S2589"7Remove this expression which always evaluates to "true"(›ú¾Òøÿÿÿÿ8“ªŠóÚ,
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(å—’­ýÿÿÿÿ8“ªŠóÚ,
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(îÔ˜÷ùÿÿÿÿ8“ªŠóÚ,
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 41 to the 15 allowed.(Ó»×¶þÿÿÿÿ8“ªŠóÚ,
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷Õ³Âþÿÿÿÿ8“ªŠóÚ,
+Xsquid:S2589"7Remove this expression which always evaluates to "true"(›ú¾Òøÿÿÿÿ8“ªŠóÚ,
+[squid:UselessImportCheck"-Remove this unused import 'android.Manifest'.(¦øïŽúÿÿÿÿ8“ªŠóÚ,
+Ssquid:S2589"7Remove this expression which always evaluates to "true"(ûÀÛÿ8“ªŠóÚ,
+Ssquid:S2589"7Remove this expression which always evaluates to "true"(ûÀÛÿ8“ªŠóÚ,
+jsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(­•å¶8“ªŠóÚ,

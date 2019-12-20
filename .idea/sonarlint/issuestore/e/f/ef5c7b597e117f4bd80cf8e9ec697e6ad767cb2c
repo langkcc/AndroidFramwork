@@ -1,0 +1,6 @@
+
+hsquid:S001167"PRename this field "DEBUG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œô©
+Vsquid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ
+isquid:S00117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦‘á˜
+csquid:UselessImportCheck"3Remove this unused import 'android.os.Environment'.(É¿‹Ãûÿÿÿÿ8¤Üÿ×ð,
+Ysquid:UselessImportCheck"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ

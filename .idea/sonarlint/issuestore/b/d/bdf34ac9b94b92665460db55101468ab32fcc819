@@ -1,0 +1,14 @@
+
+xsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(µ¿Ã8“ÂÔêî,
+jsquid:CommentedOutCodeLineÜ"<This block of commented-out lines of code should be removed.(®•‘½8“ÂÔêî,
+squid:S1192d"jDefine a constant instead of duplicating this literal "Http Responce Handler must is not null!!!" 4 times.(äƒ£îşÿÿÿÿ8“ÂÔêî,
+osquid:CommentedOutCodeLine“"<This block of commented-out lines of code should be removed.(ÚşÊ¤øÿÿÿÿ8“ÂÔêî,
+"squid:ClassVariableVisibilityCheck0"[Make httpManagerImpl a static final constant or non-public and provide accessors if needed.(ñæşû8“ÂÔêî,
+}squid:S1192g"_Define a constant instead of duplicating this literal "send http post request,url is:" 3 times.(ÊÌ£8“ÂÔêî,
+Ssquid:S14440"5Make this "public static httpManagerImpl" field final(ñæşû8“ÂÔêî,
+qsquid:S3776Û"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Çòôá8“ÂÔêî,
+Gsquid:S1148ó"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8“ÂÔêî,
+osquid:S2259™"PA "NullPointerException" could be thrown; "baseFileAttachment" is nullable here.(Şƒ™ø8“ÂÔêî,
+Gsquid:S1148ş"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8“ÂÔêî,
+nsquid:CommentedOutCodeLinew"<This block of commented-out lines of code should be removed.(ÚşÊ¤øÿÿÿÿ8“ÂÔêî,
+Xsquid:S2864Ç"4Iterate over the "entrySet" instead of the "keySet".(½Ö²’ûÿÿÿÿ8“ÂÔêî,

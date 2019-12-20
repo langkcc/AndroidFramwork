@@ -1,0 +1,71 @@
+apply plugin: 'com.android.library'
+apply plugin: 'maven'
+android {
+    compileSdkVersion Integer.parseInt(CompileSdkVersion)
+    buildToolsVersion BuildToolsVersion
+
+    defaultConfig {
+        minSdkVersion Integer.parseInt(MinSdkVersion)
+        targetSdkVersion Integer.parseInt(TargetSdkVersion)
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+//    sourceSets {
+//        main {
+//            jniLibs.srcDirs = ['libs']
+//        }
+//    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+//    compile files('libs/alicloud-android-utils-1.0.3.jar')
+//    compile files('libs/umeng-push-4.0.0x.jar')
+//    compile files('libs/alicloud-android-httpdns-1.1.3.jar')
+    //PushSDK必须依赖基础组件库，所以需要加入对应依赖
+    compile 'com.umeng.sdk:common:1.5.3'
+    //PushSDK必须依赖utdid库，所以需要加入对应依赖
+    compile 'com.umeng.sdk:utdid:1.1.5.3'
+    //PushSDK
+    compile 'com.umeng.sdk:push:4.2.0'
+    compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
+//    testCompile 'junit:junit:4.12'
+}
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: 'http://192.168.192.119:8081/repository/gts-maven-release/') {
+                authentication(userName: "dev", password: "dev")
+            }
+            pom.project {
+                name 'pushLib'
+                groupId 'com.jf.android'
+                artifactId 'pushLib '
+                version LibVersion
+                packaging 'aar'
+                licenses {
+                    license {
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                        distribution 'repo'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'langk'
+                        name 'LangK'
+                    }
+                }
+            }
+        }
+    }
+}

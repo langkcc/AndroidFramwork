@@ -1,0 +1,18 @@
+
+Gsquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+{squid:S4165Q"dRemove this useless assignment; "result" already holds the assigned value along all execution paths.(ˆáŒƒ
+Fsquid:S2093J"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+Fsquid:S2093f"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+Esquid:S1481i")Remove this unused "line" local variable.(œá‰…ûÿÿÿÿ
+Bsquid:S00108‘")Either remove or fill this block of code.(Úîø›
+@squid:S1148¥"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Lsquid:S1481‡"/Remove this unused "tempString" local variable.(Å˜ Îşÿÿÿÿ
+Asquid:S1181O"%Catch Exception instead of Throwable.(À˜§üÿÿÿÿ
+squid:UselessImportCheck"]Remove this unused import 'com.juefeng.android.framework.common.application.BaseApplication'.(Ä®ñ•øÿÿÿÿ8‡Šı×ğ,
+@squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148p"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Asquid:S00108v")Either remove or fill this block of code.(ŸäÁ‚
+Bsquid:S00108«")Either remove or fill this block of code.(”ı¾
+^
+squid:S899Ÿ"BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ
+qsquid:UselessImportCheck"ARemove this unused import 'com.juefeng.android.framework.LKUtil'.(ìáŞõúÿÿÿÿ8‡Šı×ğ,

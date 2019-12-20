@@ -1,0 +1,63 @@
+apply plugin: 'com.android.library'
+apply plugin: 'maven'
+android {
+    compileSdkVersion Integer.parseInt(CompileSdkVersion)
+    buildToolsVersion BuildToolsVersion
+
+    defaultConfig {
+        minSdkVersion Integer.parseInt(MinSdkVersion)
+        targetSdkVersion Integer.parseInt(TargetSdkVersion)
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile files('libs/open_sdk_r5788_lite.jar')
+    compile files('libs/SocialSDK_QQ_Full.jar')
+    compile files('libs/SocialSDK_WeiXin_Full.jar')
+    compile files('libs/umeng_shareboard_widget.jar')
+    compile files('libs/umeng_social_api.jar')
+    compile files('libs/umeng_social_net.jar')
+    compile files('libs/umeng_social_shareboard.jar')
+    compile files('libs/umeng_social_tool.jar')
+    compile files('libs/wechat-sdk-android-with-mta-1.1.6.jar')
+    compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
+    testCompile 'junit:junit:4.12'
+}
+
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: 'http://192.168.192.119:8081/repository/gts-maven-release/') {
+                authentication(userName: "dev", password: "dev")
+            }
+            pom.project {
+                name 'shareLib'
+                groupId 'com.jf.android'
+                artifactId 'shareLib '
+                version LibVersion
+                packaging 'aar'
+                licenses {
+                    license {
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                        distribution 'repo'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'langk'
+                        name 'LangK'
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+<resources>
+	<string name="app_name">CommonLib</string>
+	<string name="slie">juefeng!@#</string>
+	<string name="cancel">忽略此版本</string>
+	<string name="ok">确定</string>
+	<string name="permisstion_deny_write">为了保证应用功能的正常使用，请打开读写外部文件权限</string>
+	<string name="permisstion_deny_camera">为了保证应用功能的正常使用，请打开读写相机拍照权限</string>
+	<string name="permisstion_deny_local">为了保证应用功能的正常使用，请打开定位权限</string>
+	<string name="permisstion_deny">为了保证应用功能的正常使用，请打开权限</string>
+</resources>
